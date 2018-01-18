@@ -1,0 +1,423 @@
+Initial results with just extracted features, 25 objects per class for reference
+
+ Nearest Mean         0.708
+ ParzenC              0.683
+ Bayes-Normal-1/LDC       0.183
+ Bayes-Normal-2/QDC       0.417
+ Fisher               0.242
+ Logistic	      0.533
+ 1-NN                 0.675
+ 5-NN                 0.675
+ 3-NN                 0.675
+ 2-NN                 0.675
+ 4-NN                 0.658
+ 6-NN                 0.667
+ 10-NN                0.633
+ 20-NN                0.692
+ 40-NN                0.725
+ 30-NN                0.667
+ 15-NN                0.650
+ 100-NN               0.783
+
+Neural network with backpropagation, 2 layers, 1000 iterations
+ nisttrain_cell       0.900
+Neural network with backpropagation, 3 layers, 1000 iterations
+ nisttrain_cell       0.525
+Neural network with backpropagation, 4 layers, 1000 iterations
+ nisttrain_cell       0.892
+Neural network with backpropagation, 5 layers, 1000 iterations
+ nisttrain_cell       0.900
+Neural network with backpropagation, 10 layers, 1000 iterations
+ nisttrain_cell       0.325
+Neural network with backpropagation, 20 layers, 1000 iterations
+ nisttrain_cell       0.292
+Neural network with backpropagation, 50 layers, 1000 iterations
+ nisttrain_cell       0.225
+Neural network with backpropagation, 100 layers, 1000 iterations
+ nisttrain_cell       0.250
+Neural network with backpropagation, 200 layers, 1000 iterations
+ nisttrain_cell       0.250
+Neural network with backpropagation, 75 layers, 1000 iterations
+ nisttrain_cell       0.242
+Neural network with backpropagation, 85 layers, 1000 iterations
+ nisttrain_cell       0.242
+Neural network with backpropagation, 80 layers, 1000 iterations
+ nisttrain_cell       0.275
+Neural network with backpropagation, 60 layers, 1000 iterations
+ nisttrain_cell       0.417
+Neural network with backpropagation, 55 layers, 1000 iterations
+ nisttrain_cell       0.258
+Neural network with backpropagation, 45 layers, 1000 iterations
+ nisttrain_cell       0.208
+Neural network with backpropagation, 40 layers, 1000 iterations
+ nisttrain_cell       0.258
+Neural network with backpropagation, 44 layers, 1000 iterations
+ nisttrain_cell       0.258
+Neural network with backpropagation, 46 layers, 1000 iterations
+ nisttrain_cell       0.283
+Neural network with backpropagation, 45 layers, 1000 iterations
+ nisttrain_cell       0.275
+Neural network with backpropagation, 45 layers, 500 iterations
+ nisttrain_cell       0.467
+Neural network with backpropagation, 45 layers, 1500 iterations
+ nisttrain_cell       0.242
+Neural network with backpropagation, 45 layers, 2000 iterations
+ nisttrain_cell       0.250
+Neural network with backpropagation, 3 layers, 1500 iterations
+ nisttrain_cell       0.758
+Neural network with backpropagation, 3 layers, 500 iterations
+ nisttrain_cell       0.875
+Neural network with backpropagation, 3 layers, 2000 iterations
+ nisttrain_cell       0.650
+Neural network with backpropagation, 3 layers, 3000 iterations
+ nisttrain_cell       0.875
+Neural network with backpropagation, 3 layers, 4000 iterations
+ nisttrain_cell       0.900
+Support Vector Machines with radial basis kernel
+ nisttrain_cell       0.900
+Support Vector Machines with second order polynomial
+ nisttrain_cell       0.542
+Support Vector Machines with third order polynomial
+ nisttrain_cell       0.683
+Support Vector Machines with first order polynomial
+ nisttrain_cell       0.267
+Naive Bayes
+ nisttrain_cell       0.475
+Decision Tree  with infcrit and low pruning
+ nisttrain_cell       0.700
+Decision Tree with maxcrit and low pruning
+ nisttrain_cell       0.700
+Decision Tree with fishcrit and low pruning
+ nisttrain_cell       0.800
+Decision Tree  with infcrit and medium pruning
+ nisttrain_cell       0.660
+
+Dissimilarities representation with euclidean distance
+Ldc
+ Projected nisttrain_ 0.380
+Nmc
+ Projected nisttrain_ 0.740
+Qdc
+ Projected nisttrain_ 0.780
+
+
+Crossvalidation for ldc with 80-folds and 10 repetitions
+e =   0.2250
+s =   0
+Crossvalidation for ldc with 40-folds and 10 repetitions
+e = 0.2313
+s = 0.0106
+Crossvalidation for ldc with 20-folds and 10 repetitions
+e = 0.2363
+s = 0.0161
+Crossvalidation for ldc with 20-folds and 20 repetitions
+e = 0.2513
+s = 0.0214
+Crossvalidation for ldc with 40-folds and 10 repetitions
+e = 0.2313
+s = 0.0138
+Crossvalidation for ldc with 80-folds and 10 repetitions
+e = 0.2250
+s = 2.8477e-17
+
+
+Baggingc with SVM first order polynomial
+ nisttrain_cell       0.275
+Baggingc with SVM second order polynomial
+ nisttrain_cell       0.425
+
+
+Features selection for 12 features
+Backwards feature selection using NN criterion
+Ldc
+nisttrain_cell       0.425
+Qdc
+nisttrain_cell       0.583
+Parzenc 
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.400
+Loglc
+nisttrain_cell       0.458
+Nmc
+nisttrain_cell       0.708
+ 
+Backwards feature selection using eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.675
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc 
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+
+Backwards feature selection using eucl-m criterion
+Ldc
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.633
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.392
+Loglc
+nisttrain_cell       0.367
+Nmc
+nisttrain_cell       0.708
+
+Pudil's floating feature selection using NN criterion
+Ldc
+nisttrain_cell       0.517
+Qdc
+nisttrain_cell       0.683
+Parzenc
+nisttrain_cell       0.742
+Fisherc
+nisttrain_cell       0.550
+Loglc
+nisttrain_cell       0.750
+Nmc
+nisttrain_cell       0.750
+
+Pudil's floating feature selection using eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.700
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+
+Pudil's floating feature selection using eucl-m criterion
+Ldc
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.633
+Parzenc 
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.392
+Loglc
+nisttrain_cell       0.367
+Nmc
+nisttrain_cell       0.708
+
+Branch and bound feature selection using NN criterion
+Ldc 
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.717
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.433
+Loglc
+nisttrain_cell       0.425
+Nmc 
+nisttrain_cell       0.708
+ 
+Branch and bound feature selection using eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.667
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+ 
+Branch and bound feature selection using eucl-m criterion
+Ldc
+nisttrain_cell       0.383
+Qdc 
+nisttrain_cell       0.625
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.392
+Loglc
+nisttrain_cell       0.367
+Nmc 
+nisttrain_cell       0.708
+
+Indiviudal feature selection using NN criterion
+Ldc
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.717
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.433
+Loglc
+nisttrain_cell       0.425
+Nmc
+nisttrain_cell       0.708
+
+Indiviudal feature selection using eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.700
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+
+Indiviudal feature selection using eucl-m criterion
+Ldc
+nisttrain_cell       0.342
+Qdc
+nisttrain_cell       0.650
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.342
+Loglc
+nisttrain_cell       0.342
+Nmc
+nisttrain_cell       0.708
+
+Forward feature selection using NN criterion
+Ldc
+nisttrain_cell       0.208
+Qdc
+nisttrain_cell       0.725
+Parzenc
+nisttrain_cell       0.750
+Fisherc
+nisttrain_cell       0.242
+Loglc
+nisttrain_cell       0.642
+Nmc 
+nisttrain_cell       0.742
+ 
+Forward feature selection using eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.700
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+ 
+Forward feature selection using eucl-m criterion
+Ldc
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.633
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.392
+Loglc
+nisttrain_cell       0.367
+Nmc
+nisttrain_cell       0.708
+
+Plus-l-takeaway-R feature selection with NN criterion
+Ldc
+nisttrain_cell       0.208
+Qdc
+nisttrain_cell       0.725
+Parzenc
+nisttrain_cell       0.750
+Fisherc
+nisttrain_cell       0.242
+Loglc
+nisttrain_cell       0.642
+Nmc
+nisttrain_cell       0.742
+
+Plus-l-takeaway-R feature selection with eucl-s criterion
+Ldc
+nisttrain_cell       0.267
+Qdc
+nisttrain_cell       0.700
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.267
+Loglc
+nisttrain_cell       0.325
+Nmc
+nisttrain_cell       0.708
+
+Plus-l-takeaway-R feature selection with eucl-m criterion
+Ldc
+nisttrain_cell       0.383
+Qdc
+nisttrain_cell       0.633
+Parzenc 
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.392
+Loglc
+nisttrain_cell       0.367
+Nmc
+nisttrain_cell       0.708
+
+Varying feature selection with NN criterion
+Ldc
+nisttrain_cell       0.183
+Qdc
+nisttrain_cell       0.417
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.242
+Loglc
+nisttrain_cell       0.533
+Nmc
+nisttrain_cell       0.708
+
+Varying feature selection with eucl-s criterion
+Ldc
+nisttrain_cell       0.183
+Qdc
+nisttrain_cell       0.417
+Parzenc
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.242
+Loglc
+nisttrain_cell       0.533
+Nmc
+nisttrain_cell       0.708
+
+Varying feature selection with eucl-m criterion
+Ldc
+nisttrain_cell       0.183
+Qdc
+nisttrain_cell       0.417
+Parzenc 
+nisttrain_cell       0.683
+Fisherc
+nisttrain_cell       0.242
+Loglc
+nisttrain_cell       0.533
+Nmc
+nisttrain_cell       0.708
